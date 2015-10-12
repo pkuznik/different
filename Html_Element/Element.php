@@ -8,6 +8,9 @@
  
  abstract class Element {
     
+    /**
+     * @var string Nazwa identyfikujca
+     */
     proctected $name = null;
     
     /*
