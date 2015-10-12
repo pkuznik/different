@@ -13,7 +13,7 @@
     /**
      * @var string Nazwa identyfikujca
      */
-    proctected $name = null;
+    protected $name = null;
     
     /**
      * @var string css class
@@ -122,7 +122,7 @@
      * @param $attr string|null Value attribution
      * @param $name string name attribution
      */
-    proctected function createAttribution($attr, $name){
+    protected function createAttribution($attr, $name){
     	if ( is_null($attr) ){
     		return '';
     	}else{
@@ -130,7 +130,7 @@
     	}
     }
     
-    proctected function getAttributions(){
+    protected function getAttributions(){
     	$html = '';
     	$html .= $this->getAttribute($this->class, 'class');
     	
