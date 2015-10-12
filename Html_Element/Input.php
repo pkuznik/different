@@ -42,9 +42,11 @@
   public function toHtml(){
     $html = '<input id="' . $this->name . '" type=" . $this->type . '";
     
+    //Create new Attribution of name and value
     $hmtl .= $this->createAttribution($this->post, 'name');
     $html .= $this->createAttribution($this->value, 'value');
     
+    //Get attributions with Class Element
     $html .= $this->getAttributions();
     
     $html .= '/>';
