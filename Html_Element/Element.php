@@ -130,7 +130,7 @@
     	}
     }
     
-    proctected function getAttribution(){
+    proctected function getAttributions(){
     	$html = '';
     	$html .= $this->getAttribute($this->class, 'class');
     	
