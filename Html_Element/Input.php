@@ -18,12 +18,12 @@
   /**
    * @var string  attribute type than input
    */
-  proctected $type = null;
+  protected $type = null;
   
   /**
    * @var string  attribute name send in POST|GET form
    */
-  proctected $post = null;
+  protected $post = null;
   
   /**
    * @param $name string Identified object
