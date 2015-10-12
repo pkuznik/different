@@ -45,7 +45,7 @@
     $hmtl .= $this->createAttribution($this->post, 'name');
     $html .= $this->createAttribution($this->value, 'value');
     
-    $html .= $this->getAttribution();
+    $html .= $this->getAttributions();
     
     $html .= '/>';
     return $html;
