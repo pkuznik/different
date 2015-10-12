@@ -1,5 +1,8 @@
 /**
  * Description of Element
+ *
+ * Create new class rewrite @method toHtml
+ *
  * @version 0.1
  * @author Piotr Kuźnik <piotr.damian.kuznik@gmail.com>
  * @license https://www.gnu.org/copyleft/gpl.html GNU
